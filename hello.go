@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/jguiban/hellogolib"
+)
 
 func main() {
-	fmt.Println("Welcome to the playground!")
+	fmt.Printf(hellogolib.Reverse("!oG ,olleH"))
 }
+
